@@ -14,7 +14,7 @@ html {
 
 .title-h1 {
     font-family: 'comic sans ms', serif;
-    font-size: 7vw;
+    font-size: 6vw;
     color: rgb(250, 239, 36);
     font-style: italic;
     font-weight: bold;
@@ -22,6 +22,16 @@ html {
     text-shadow: 3px 3px black;
     position: absolute;
     z-index: 2;
+}
+
+.logo {
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+}
+
+.content {
+    position: relative;
 }
 
 .blanc {
