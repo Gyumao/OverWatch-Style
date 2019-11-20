@@ -181,6 +181,7 @@ footer {
 
 .bg-a {
     background-color: rgb(226, 226, 226);
+    margin-top: 1rem;
 }
 
 .bs {
@@ -195,9 +196,10 @@ footer {
     width: 95%;
     text-align: center;
     font-size: 2.5vw;
+    color: #f2c609;
     border: 7px solid black;
     margin-top: 1vw;
-    padding-top: 2vw;
+    padding-top: 1vw;
     text-shadow: 2px 2px black;
     animation: glow 3000ms ease-out infinite alternate;
 }
