@@ -107,7 +107,7 @@ button {
     font-size: 1.7rem;
     font-weight: bold;
     letter-spacing: .1vw;
-    margin: 0 .3vw;
+    margin: .5vw .3vw;
 }
 
 button:hover,
@@ -134,10 +134,11 @@ button:focus {
     text-align: center;
     color: #f2c609;
     text-shadow: 3px 3px 3px black;
-    font-family: 'comic sans ms', serif;
+    /*font-family: 'comic sans ms', serif;*/
     position: absolute;
     z-index: 2;
     margin: 3vw 0 0 3vw;
+    letter-spacing: 1.5vw;
 }
 
 .logo {
@@ -344,6 +345,10 @@ button:focus {
     padding-top: 1vw;
     text-shadow: 2px 2px black;
     animation: glow 3000ms ease-out infinite alternate;
+}
+
+.p-main {
+    font-family: "koverwatch", Arial, sans-serif;
 }
 
 /*---------------------------FOOTER----------------------------*/
