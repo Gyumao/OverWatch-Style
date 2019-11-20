@@ -130,14 +130,13 @@ button:focus {
 .title-h1 {
     font-size: 6vw;
     font-weight: bold;
-    font-style: italic;
     text-align: center;
     color: #f2c609;
     text-shadow: 3px 3px 3px black;
     /*font-family: 'comic sans ms', serif;*/
     position: absolute;
     z-index: 2;
-    margin: 3vw 0 0 3vw;
+    margin: 3vh 0 0 3vw;
     letter-spacing: 1.5vw;
 }
 
@@ -146,7 +145,7 @@ button:focus {
     position: absolute;
     right: 0;
     z-index: 2;
-    margin: 3vw 6vw 0 0;
+    margin: 3vh 6vw 0 0;
 }
 
 .blanc {
