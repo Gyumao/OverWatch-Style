@@ -4,6 +4,12 @@
     src: url('assets/webfonts/bignoodletoo.ttf');
 }
 
+@font-face {
+    font-family: 'koverwatch';
+    src: url('assets/webfonts/koverwatch.ttf');
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,47 +17,12 @@
 }
 
 html {
-    background-color: black;
+    background-color: #242424;
     font-size: 10px;
+    font-family: "bignoodletoo", Arial, sans-serif;
 }
 
 /*---------------------------HEADER-------------------------------*/
-
-body {
-    font-family: "bignoodletoo", Arial, sans-serif;
-    background-color: #242424;
-    color: #efefef;
-}
-
-body a:visited {
-    color: #efefef;
-    text-decoration: none;
-}
-
-body a:hover {
-    color: #fff;
-}
-
-.login {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-
-}
-
-.title-h1 {
-    font-size: 6vw;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    color: #f2c609;
-    text-shadow: 3px 3px 3px black;
-    font-family: 'comic sans ms', serif;
-    position: absolute;
-    z-index: 2;
-    margin: 3vw 0 0 3vw;
-}
 
 header nav ul li a:hover,
 header nav ul li a:focus {
@@ -60,29 +31,6 @@ header nav ul li a:focus {
     animation: glow 800ms ease-out infinite alternate;
     border-color: #56c831;
 
-}
-
-.logo {
-    width: 15%;
-    position: absolute;
-    right: 0;
-    z-index: 2;
-    margin: 3vw 6vw 0 0;
-}
-
-.blanc {
-    color: #fff;
-}
-
-.vert {
-    color: #56c831;
-}
-
-.Video {
-
-    height: 93vh;
-    object-fit: fill;
-    width: 100%;
 }
 
 .nav-top {
@@ -100,108 +48,12 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff;
 }
 
-footer {
-    text-align: center;
-}
-
-.contact-footer {
-    display: inline-block;
-
-}
-
-/*                     SEPERATOR             */
-
-.seperator-wrapper .seperator {
-    position: relative;
-    width: 100%;
-    height: 5px;
-    animation: rotate 5s infinite linear;
-    -webkit-animation: rotate 5s infinite linear;
-}
-
-@-webkit-keyframes rotate {
-    from {
-        background-position: -3000px;
-    }
-
-    to {
-        background-position: 0px;
-    }
-}
-
-@keyframes rotate {
-    from {
-        background-position: -3000px;
-    }
-
-    to {
-        background-position: 0px;
-    }
-}
-
-.gradient {
-    background: rgb(48, 255, 144);
-    /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(48, 255, 144, 1)), color-stop(25%, rgba(237, 45, 237, 1)), color-stop(50%, rgba(201, 152, 38, 1)), color-stop(75%, rgba(48, 255, 230, 1)), color-stop(100%, rgba(48, 255, 144, 1)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
-    /* IE10+ */
-    background: linear-gradient(to right, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30ff90', endColorstr='#30ff90', GradientType=1);
-    /* IE6-9 */
-
-}
-
-.main-img {
-    position: absolute;
-    bottom: auto;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-}
-
-.video-p {
-    margin: 35vh 18vw 8vh 11vw;
-    position: relative;
-    z-index: 2;
-    width: 48vw;
-    height: 55vh;
-}
-
-.bg-a {
-    background-color: rgb(226, 226, 226);
-    margin-top: 1rem;
-}
-
-.bs {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 1vw 0;
-}
-
-.pg {
-    background-color: rgba(255, 255, 255, .2);
-    width: 95%;
-    text-align: center;
-    font-size: 2.5vw;
-    color: #f2c609;
-    border: 7px solid black;
-    margin-top: 1vw;
-    padding-top: 1vw;
-    text-shadow: 2px 2px black;
-    animation: glow 3000ms ease-out infinite alternate;
+a:visited,
+a:hover {
+    color: #efefef;
+    text-decoration: none;
 }
 
 input {
@@ -224,7 +76,6 @@ input:focus {
     outline: none;
 
 }
-
 
 ::placeholder {
     text-align: center;
@@ -267,6 +118,52 @@ button:focus {
     border-color: #56c831;
 
 }
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.title-h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #f2c609;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'comic sans ms', serif;
+    position: absolute;
+    z-index: 2;
+    margin: 3vw 0 0 3vw;
+}
+
+.logo {
+    width: 15%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    margin: 3vw 6vw 0 0;
+}
+
+.blanc {
+    color: #fff;
+}
+
+.vert {
+    color: #56c831;
+}
+
+.Video {
+
+    height: 93vh;
+    object-fit: fill;
+    width: 100%;
+}
+
+/*--------------------arrow image link---------------*/
 
 @-moz-keyframes bounce {
 
@@ -353,4 +250,109 @@ button:focus {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+}
+
+/*                     SEPERATOR             */
+
+.seperator-wrapper .seperator {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    animation: rotate 5s infinite linear;
+    -webkit-animation: rotate 5s infinite linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        background-position: -3000px;
+    }
+
+    to {
+        background-position: 0px;
+    }
+}
+
+@keyframes rotate {
+    from {
+        background-position: -3000px;
+    }
+
+    to {
+        background-position: 0px;
+    }
+}
+
+.gradient {
+    background: rgb(48, 255, 144);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(48, 255, 144, 1)), color-stop(25%, rgba(237, 45, 237, 1)), color-stop(50%, rgba(201, 152, 38, 1)), color-stop(75%, rgba(48, 255, 230, 1)), color-stop(100%, rgba(48, 255, 144, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30ff90', endColorstr='#30ff90', GradientType=1);
+    /* IE6-9 */
+
+}
+
+/*------------------------------------MAIN-------------------*/
+
+.main-img {
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.video-p {
+    margin: 35vh 18vw 8vh 11vw;
+    position: relative;
+    z-index: 2;
+    width: 48vw;
+    height: 55vh;
+}
+
+.bg-anime {
+    background-color: rgb(226, 226, 226);
+    margin-top: 2rem;
+}
+
+.bg-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vw 0;
+}
+
+.presentation {
+    background-color: #333131;
+    width: 95%;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #f2c609;
+    border: 7px solid black;
+    margin-top: 1vw;
+    padding-top: 1vw;
+    text-shadow: 2px 2px black;
+    animation: glow 3000ms ease-out infinite alternate;
+}
+
+/*---------------------------FOOTER----------------------------*/
+
+footer {
+    text-align: center;
+}
+
+.contact-footer {
+    display: inline-block;
+
 }
