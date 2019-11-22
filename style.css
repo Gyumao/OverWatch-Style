@@ -332,9 +332,9 @@ button:focus {
     width: 55vw;
     height: 30vw;
     position: absolute;
-    bottom: auto;
+    bottom: -99%;
     left: 0;
-    margin: 21vw 0 0 1vw;
+    /*margin: 21vw 0 0 1vw;*/
 }
 
 .logo-o2 {
