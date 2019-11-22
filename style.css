@@ -301,6 +301,31 @@ button:focus {
 
 }
 
+.img-o2 {
+    height: 50.9vw;
+    width: 100%;
+    position: relative;
+    object-fit: fill
+}
+
+.title-o2 {
+    position: absolute;
+    top: auto;
+    left: 0;
+    width: 80vw;
+    height: 15vw;
+    margin-top: 1vw;
+}
+
+.heros-o2 {
+    width: 65vw;
+    height: 35vw;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    margin: 16vw 0 0 1vw;
+}
+
 /*------------------------------------MAIN-------------------*/
 
 .main-img {
