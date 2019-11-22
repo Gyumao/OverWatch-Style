@@ -315,16 +315,16 @@ button:focus {
     height: 50.9vw;
     width: 100%;
     position: relative;
-    object-fit: fill
+    z-index: -1;
 }
 
 .title-o2 {
     position: absolute;
     top: auto;
     left: 0;
-    width: 70vw;
+    width: 55vw;
     height: 15vw;
-    margin-top: 1vw;
+    margin-top: 2vw;
 }
 
 .heros-o2 {
@@ -334,6 +334,21 @@ button:focus {
     bottom: auto;
     left: 0;
     margin: 21vw 0 0 1vw;
+}
+
+.logo-o2 {
+    position: absolute;
+    right: 12%;
+    bottom: -32%;
+    width: 17%;
+}
+
+.p-o2 {
+    font-size: 3vw;
+    position: absolute;
+    right: 9%;
+    bottom: -55%;
+    text-align: center;
 }
 
 .video-o2 {
