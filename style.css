@@ -373,6 +373,28 @@ button:focus {
     opacity: .9;
 }
 
+.lien-o2 {
+    color: #f2c609;
+    text-shadow: 2px 2px 2px black;
+    animation: glow3 1000ms ease-out infinite alternate;
+}
+
+.lien-o2 a:hover {
+    color: #f2c609;
+    text-shadow: 2px 2px 2px black;
+}
+
+@keyframes glow3 {
+    0% {
+        color: #ffd000;
+
+    }
+
+    100% {
+        color: #ffee00;
+    }
+}
+
 /*------------------------------------MAIN-------------------*/
 
 .main-img {
