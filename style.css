@@ -153,11 +153,12 @@ button:focus {
 }
 
 .vert {
+    animation: glow 800ms ease-out infinite alternate;
     color: #56c831;
 }
 
 .Video {
-    height: 48vw;
+    height: 93.4vh;
     object-fit: fill;
     width: 100%;
 }
@@ -312,7 +313,7 @@ button:focus {
 }
 
 .img-o2 {
-    height: 50.9vw;
+    height: 99vh;
     width: 100%;
     position: relative;
     z-index: -1;
