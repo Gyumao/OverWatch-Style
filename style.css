@@ -153,8 +153,19 @@ button:focus {
 }
 
 .vert {
-    animation: glow 800ms ease-out infinite alternate;
+    animation: glow2 3000ms ease-out infinite alternate;
     color: #56c831;
+}
+
+@keyframes glow2 {
+    0% {
+        color: rgb(30, 87, 30);
+
+    }
+
+    100% {
+        color: #56c831;
+    }
 }
 
 .Video {
