@@ -28,7 +28,7 @@ header nav ul li a:hover,
 header nav ul li a:focus {
     color: #56c831;
     outline: none;
-    animation: glow 800ms ease-out infinite alternate;
+    animation: glow2 800ms ease-out infinite alternate;
     border-color: #56c831;
 
 }
@@ -47,6 +47,7 @@ li {
 }
 
 a {
+    color: #efefef;
     text-decoration: none;
 }
 
@@ -153,13 +154,13 @@ button:focus {
 }
 
 .vert {
-    animation: glow2 3000ms ease-out infinite alternate;
+    animation: glow2 1000ms ease-out infinite alternate;
     color: #56c831;
 }
 
 @keyframes glow2 {
     0% {
-        color: rgb(30, 87, 30);
+        color: rgb(22, 66, 22);
 
     }
 
@@ -169,7 +170,7 @@ button:focus {
 }
 
 .Video {
-    height: 93.4vh;
+    height: 93.3vh;
     object-fit: fill;
     width: 100%;
 }
@@ -343,9 +344,8 @@ button:focus {
     width: 55vw;
     height: 30vw;
     position: absolute;
-    bottom: -99%;
+    bottom: -99.5%;
     left: 0;
-    /*margin: 21vw 0 0 1vw;*/
 }
 
 .logo-o2 {
