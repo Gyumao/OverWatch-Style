@@ -136,7 +136,7 @@ button:focus {
     /*font-family: 'comic sans ms', serif;*/
     position: absolute;
     z-index: 2;
-    margin: 3vh 0 0 3vw;
+    margin: 3vw 0 0 3vw;
     letter-spacing: 1.5vw;
 }
 
@@ -145,7 +145,7 @@ button:focus {
     position: absolute;
     right: 0;
     z-index: 2;
-    margin: 3vh 6vw 0 0;
+    margin: 2vw 6vw 0 0;
 }
 
 .blanc {
@@ -157,7 +157,7 @@ button:focus {
 }
 
 .Video {
-    height: 93vh;
+    height: 48vw;
     object-fit: fill;
     width: 100%;
 }
@@ -239,10 +239,20 @@ button:focus {
 .arrow {
     width: 5%;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    right: 0;
+    bottom: 1%;
     z-index: 2;
-    margin: 0 50% 1.5rem 50%;
+    margin-right: 50%;
+}
+
+.arrow2 {
+    width: 5%;
+    position: absolute;
+    bottom: -99%;
+    right: 0;
+    z-index: 2;
+    margin-right: 50%;
+
 }
 
 .bounce {
@@ -256,7 +266,7 @@ button:focus {
 .seperator-wrapper .seperator {
     position: relative;
     width: 100%;
-    height: 5px;
+    height: .3vw;
     animation: rotate 5s infinite linear;
     -webkit-animation: rotate 5s infinite linear;
 }
