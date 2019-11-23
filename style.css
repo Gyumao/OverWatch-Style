@@ -408,16 +408,42 @@ button:focus {
 
 .title-halloween {
     position: absolute;
-    top: auto;
-    left: 0;
-    margin: 2vw 0 0 2vw;
+    top: 205%;
+    right: 30%;
+    width: 25%;
 }
 
-.heroes-halloween {
+/*.{
+    font-family: 'Creepster', cursive;
     position: absolute;
-    bottom: -199%;
-    left: 2vw;
+    bottom: -159%;
+    left: 1vw;
     width: 40%;
+}*/
+
+.faucheur-halloween {
+    position: absolute;
+    bottom: -161%;
+    right: 12%;
+    width: 22%;
+}
+
+.video-halloween {
+    position: absolute;
+    bottom: -197%;
+    left: 0;
+    width: 35vw;
+    margin-left: 1vw;
+    border: 3px solid #f2c609;
+    opacity: .7;
+}
+
+.soldier-halloween {
+    position: absolute;
+    bottom: -201%;
+    right: 43%;
+    width: 20%;
+
 }
 
 /*------------------------------------MAIN-------------------*/
