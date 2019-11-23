@@ -342,7 +342,7 @@ button:focus {
     margin-top: 2vw;
 }
 
-.heros-o2 {
+.heroes-o2 {
     width: 55vw;
     height: 30vw;
     position: absolute;
@@ -411,6 +411,13 @@ button:focus {
     top: auto;
     left: 0;
     margin: 2vw 0 0 2vw;
+}
+
+.heroes-halloween {
+    position: absolute;
+    bottom: -199%;
+    left: 2vw;
+    width: 40%;
 }
 
 /*------------------------------------MAIN-------------------*/
