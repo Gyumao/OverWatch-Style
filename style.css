@@ -509,11 +509,19 @@ button:focus {
 
 .video-sg {
     position: absolute;
-    bottom: -240%;
-    left: 2%;
-    width: 35vw;
+    bottom: -235%;
+    right: .5%;
+    width: 30vw;
     border: 3px outset rgb(212, 212, 212);
+    border-radius: 25%;
     opacity: .7;
+}
+
+.title-sg {
+    position: absolute;
+    top: 305%;
+    left: 5%;
+    width: 20%;
 }
 
 .reinhardt-sg {
