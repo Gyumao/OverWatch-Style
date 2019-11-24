@@ -533,16 +533,23 @@ button:focus {
 
 .zenyatta-sg {
     position: absolute;
-    bottom: -280%;
-    right: 2%;
-    width: 12%;
+    bottom: -263%;
+    left: 22%;
+    width: 8%;
+}
+
+.winston-sg {
+    position: absolute;
+    bottom: -290%;
+    right: 1%;
+    width: 13%;
 }
 
 .lucio-sg {
     position: absolute;
-    bottom: -270%;
-    right: 30%;
-    width: 15%;
+    bottom: -298%;
+    right: 40%;
+    width: 25%;
 }
 
 /*------------------------------------Jeux-------------------*/
