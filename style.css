@@ -413,13 +413,57 @@ button:focus {
     width: 25%;
 }
 
-/*.{
+.h2-halloween {
     font-family: 'Creepster', cursive;
     position: absolute;
-    bottom: -159%;
-    left: 1vw;
-    width: 40%;
-}*/
+    bottom: -125%;
+    left: 1.2vw;
+    width: 35%;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #c40101;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 255), 0 0 1em rgb(0, 0, 255);
+    letter-spacing: .5vw;
+
+    -webkit-animation: change-color 800ms ease-out infinite alternate;
+    -moz-animation: change-color 800ms ease-out infinite alternate;
+    -ms-animation: change-color 800ms ease-out infinite alternate;
+    animation: change-color 600ms ease-out infinite alternate;
+}
+
+@-webkit-keyframes change-color {
+    0% {
+        color: #6e0202;
+    }
+
+    100% {
+        color: #ca0000;
+    }
+}
+
+@keyframes change-color {
+    0% {
+        color: #920101;
+    }
+
+    100% {
+        color: #ca0000;
+    }
+}
+
+.p-halloween {
+    margin-top: .9vw;
+    font-size: 1.7vw;
+    font-family: 'Creepster', cursive;
+    position: absolute;
+    bottom: -152%;
+    left: 1.2vw;
+    width: 35%;
+    text-align: center;
+    color: #c40101;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 255), 0 0 1em rgb(0, 0, 255);
+    letter-spacing: .3vw;
+}
 
 .faucheur-halloween {
     position: absolute;
@@ -434,14 +478,14 @@ button:focus {
     left: 0;
     width: 35vw;
     margin-left: 1vw;
-    border: 3px solid #f2c609;
+    border: 3px solid #920101;
     opacity: .7;
 }
 
 .soldier-halloween {
     position: absolute;
     bottom: -201%;
-    right: 43%;
+    right: 44%;
     width: 20%;
 
 }
