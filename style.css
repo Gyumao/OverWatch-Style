@@ -498,6 +498,31 @@ button:focus {
 
 }
 
+/*--------------------------------SUMMER GAME----------------*/
+
+.img-sg {
+    height: 99vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.video-sg {
+    position: absolute;
+    bottom: -240%;
+    left: 2%;
+    width: 35vw;
+    border: 3px outset rgb(212, 212, 212);
+    opacity: .7;
+}
+
+.reinhardt-sg {
+    position: absolute;
+    bottom: -263%;
+    right: 12%;
+    width: 8%;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
