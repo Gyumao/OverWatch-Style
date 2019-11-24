@@ -563,14 +563,38 @@ button:focus {
     position: absolute;
     bottom: -298%;
     left: 36%;
-    width: 25%;
+    width: 21%;
 }
 
 .ball-sg {
     position: absolute;
-    bottom: -295%;
-    right: 30%;
-    width: 12%;
+    bottom: -297%;
+    right: 33%;
+    width: 11%;
+}
+
+.h2-sg {
+    position: absolute;
+    top: 303%;
+    left: 33%;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #79c843;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0), 0 0 .5em darkviolet, 0 0 0.5em darkviolet;
+    letter-spacing: .5vw;
+}
+
+.p-sg {
+    font-size: 1.7vw;
+    position: absolute;
+    top: 313%;
+    left: 22%;
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+    color: #79c843;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 .5em black, 0 0 .5em black;
+    letter-spacing: .3vw;
 }
 
 /*------------------------------------Jeux-------------------*/
