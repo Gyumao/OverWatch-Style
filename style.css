@@ -531,6 +531,20 @@ button:focus {
     width: 8%;
 }
 
+.zenyatta-sg {
+    position: absolute;
+    bottom: -280%;
+    right: 2%;
+    width: 12%;
+}
+
+.lucio-sg {
+    position: absolute;
+    bottom: -270%;
+    right: 30%;
+    width: 15%;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
