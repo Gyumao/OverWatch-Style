@@ -509,12 +509,12 @@ button:focus {
 
 .video-sg {
     position: absolute;
-    bottom: -235%;
+    bottom: -234%;
     right: .5%;
     width: 30vw;
     border: 3px outset rgb(212, 212, 212);
     border-radius: 25%;
-    opacity: .7;
+    opacity: .8;
 }
 
 .title-sg {
@@ -528,7 +528,14 @@ button:focus {
     position: absolute;
     bottom: -263%;
     right: 12%;
-    width: 8%;
+    width: 9%;
+}
+
+.chacal-sg {
+    position: absolute;
+    bottom: -260%;
+    right: 37%;
+    width: 5%;
 }
 
 .zenyatta-sg {
@@ -536,6 +543,13 @@ button:focus {
     bottom: -263%;
     left: 22%;
     width: 8%;
+}
+
+.bouldozer-sg {
+    position: absolute;
+    bottom: -298%;
+    left: 2%;
+    width: 22%;
 }
 
 .winston-sg {
@@ -548,8 +562,15 @@ button:focus {
 .lucio-sg {
     position: absolute;
     bottom: -298%;
-    right: 40%;
+    left: 35%;
     width: 25%;
+}
+
+.ball-sg {
+    position: absolute;
+    bottom: -299%;
+    right: 33%;
+    width: 13%;
 }
 
 /*------------------------------------Jeux-------------------*/
