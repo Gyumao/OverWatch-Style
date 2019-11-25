@@ -250,15 +250,23 @@ button:focus {
 }
 
 .arrow {
-    width: 5%;
+    width: 2%;
     position: absolute;
     right: 50%;
     bottom: 1%;
     z-index: 2;
 }
 
+.arrow-top {
+    width: 2%;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    z-index: 2;
+}
+
 .arrow2 {
-    width: 5%;
+    width: 2%;
     position: absolute;
     bottom: -99%;
     right: 50%;
@@ -267,7 +275,7 @@ button:focus {
 }
 
 .arrow3 {
-    width: 5%;
+    width: 2%;
     position: absolute;
     bottom: -199%;
     right: 50%;
@@ -275,7 +283,7 @@ button:focus {
 }
 
 .arrow4 {
-    width: 5%;
+    width: 2%;
     position: absolute;
     bottom: -299%;
     right: 50%;
