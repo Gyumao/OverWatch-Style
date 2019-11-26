@@ -636,15 +636,18 @@ button:focus {
 /*---------------------------------ANNIVERSARY----------------------------------*/
 
 .video-anniv {
-    height: 93.3vh;
+    position: relative;
+    height: 64vh;
     object-fit: fill;
     width: 100%;
+    z-index: 1;
+    margin: 17.5vh 0;
 }
 
 .hanzo-anniv {
     position: absolute;
-    bottom: -358%;
-    right: 26%;
+    bottom: -317%;
+    right: 0;
     width: 15%;
 }
 
