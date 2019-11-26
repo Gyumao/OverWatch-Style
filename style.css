@@ -179,7 +179,7 @@ button:focus {
     }
 }
 
-.Video {
+.video-header {
     height: 93.3vh;
     object-fit: fill;
     width: 100%;
@@ -629,8 +629,18 @@ button:focus {
 }
 
 .link-sg a:hover {
-    color: #ff0000 text-shadow: 2px 2px 2px black;
+    color: #ff0000;
+    text-shadow: 2px 2px 2px black;
 }
+
+/*---------------------------------ANNIVERSARY----------------------------------*/
+
+.video-anniv {
+    height: 93.3vh;
+    object-fit: fill;
+    width: 100%;
+}
+
 
 /*------------------------------------Jeux-------------------*/
 
