@@ -260,7 +260,7 @@ button:focus {
 }
 
 .arrow {
-    width: 4%;
+    width: 3%;
     position: absolute;
     right: 50%;
     bottom: 1%;
@@ -270,13 +270,13 @@ button:focus {
 .arrow-top {
     width: 4%;
     position: fixed;
-    right: 1%;
+    right: 0;
     bottom: 1%;
     z-index: 2;
 }
 
 .arrow2 {
-    width: 4%;
+    width: 3%;
     position: absolute;
     bottom: -99%;
     right: 50%;
@@ -285,7 +285,7 @@ button:focus {
 }
 
 .arrow3 {
-    width: 4%;
+    width: 3%;
     position: absolute;
     bottom: -199%;
     right: 50%;
@@ -293,7 +293,7 @@ button:focus {
 }
 
 .arrow4 {
-    width: 4%;
+    width: 3%;
     position: absolute;
     bottom: -299%;
     right: 50%;
@@ -641,6 +641,12 @@ button:focus {
     width: 100%;
 }
 
+.hanzo-anniv {
+    position: absolute;
+    bottom: -358%;
+    right: 26%;
+    width: 15%;
+}
 
 /*------------------------------------Jeux-------------------*/
 
