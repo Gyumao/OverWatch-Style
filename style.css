@@ -1,14 +1,18 @@
 /*--------------------------RESET-----------------------------*/
 @font-face {
     font-family: 'bignoodletoo';
-    src: url('assets/webfonts/bignoodletoo.ttf');
+    src: url('assets/fonts/bignoodletoo.ttf');
 }
 
 @font-face {
     font-family: 'koverwatch';
-    src: url('assets/webfonts/koverwatch.ttf');
+    src: url('assets/fonts/koverwatch.ttf');
 }
 
+@font-face {
+    font-family: 'Aerovias_Brasil_NF';
+    src: url('assets/fonts/Aerovias_Brasil_NF.ttf');
+}
 
 * {
     box-sizing: border-box;
@@ -539,7 +543,7 @@ button:focus {
 
 .title-sg {
     position: absolute;
-    top: 302%;
+    top: 301%;
     left: 1%;
     width: 20%;
 }
@@ -596,12 +600,13 @@ button:focus {
 .h2-sg {
     position: absolute;
     top: 303%;
-    left: 33%;
+    left: 31%;
     font-size: 3.5vw;
     text-align: center;
     color: #3fa9f5;
     text-shadow: 5px 5px 5px rgb(0, 0, 0), 0 0 .5em rgb(0, 0, 0), 0 0 0.5em rgb(0, 0, 0);
     letter-spacing: .5vw;
+    font-family: "Aerovias_Brasil_NF";
 }
 
 .p-sg {
@@ -615,6 +620,7 @@ button:focus {
     color: #79c843;
     text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 .5em black, 0 0 .5em black;
     letter-spacing: .3vw;
+    font-family: "Aerovias_Brasil_NF";
 }
 
 .link-sg {
