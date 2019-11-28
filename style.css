@@ -268,7 +268,7 @@ button:focus {
 }
 
 .arrow-top {
-    width: 4%;
+    width: 3%;
     position: fixed;
     right: 0;
     bottom: 1%;
@@ -635,20 +635,55 @@ button:focus {
 
 /*---------------------------------ANNIVERSARY----------------------------------*/
 
-.video-anniv {
+.bg-anniv {
     position: relative;
-    height: 64vh;
+    top: auto;
+    right: 0;
+    z-index: -99;
+    width: 100%;
+    height: 99vh;
+}
+
+.video-anniv {
+    position: absolute;
+    top: 400%;
+    left: 0;
+    height: 63vh;
     object-fit: fill;
     width: 100%;
-    z-index: 1;
-    margin: 17.5vh 0;
+    margin: 18vh 0;
+    border-top: 5px solid gold;
+    border-bottom: 5px solid gold;
+}
+
+.title-anniv {
+    position: absolute;
+    top: 400%;
+    left: 40%;
+    width: 16%;
 }
 
 .hanzo-anniv {
     position: absolute;
-    bottom: -317%;
+    top: 399%;
     right: 0;
-    width: 15%;
+    width: 18%;
+    z-index: -1;
+}
+
+.genji-anniv {
+    position: absolute;
+    top: 399%;
+    left: 0%;
+    width: 14%;
+}
+
+.symmetra-anniv {
+    position: absolute;
+    top: 399%;
+    left: 27%;
+    width: 18%;
+    z-index: -1;
 }
 
 /*------------------------------------Jeux-------------------*/
