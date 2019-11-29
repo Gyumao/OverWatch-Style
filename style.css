@@ -648,10 +648,10 @@ button:focus {
     position: absolute;
     top: 400%;
     left: 0;
-    height: 63vh;
+    height: 65vh;
     object-fit: fill;
     width: 100%;
-    margin: 18vh 0;
+    margin: 10% 0;
     border-top: 5px solid gold;
     border-bottom: 5px solid gold;
 }
@@ -667,7 +667,7 @@ button:focus {
     position: absolute;
     top: 399%;
     right: 0;
-    width: 18%;
+    width: 17%;
     z-index: -1;
 }
 
@@ -676,19 +676,36 @@ button:focus {
     top: 399%;
     left: 0%;
     width: 14%;
+    z-index: -1;
 }
 
-.symmetra-anniv {
+.chacal-anniv {
     position: absolute;
     top: 399%;
-    left: 27%;
-    width: 18%;
+    left: 13%;
+    width: 13%;
+    z-index: -1;
+}
+
+.doomfist-anniv {
+    position: absolute;
+    top: 399%;
+    left: 26%;
+    width: 15%;
+    z-index: -1;
+}
+
+.brigitte-anniv {
+    position: absolute;
+    top: 399%;
+    right: 16%;
+    width: 13%;
     z-index: -1;
 }
 
 .zarya-anniv {
     position: absolute;
-    top: 397%;
+    top: 398%;
     right: 30%;
     width: 14%;
     z-index: -1;
@@ -698,7 +715,15 @@ button:focus {
     position: absolute;
     bottom: -398.5%;
     right: 0;
-    width: 15%;
+    width: 16%;
+    z-index: 3;
+}
+
+.bastion-anniv {
+    position: absolute;
+    bottom: -398.5%;
+    left: 0;
+    width: 17%;
     z-index: 3;
 }
 
