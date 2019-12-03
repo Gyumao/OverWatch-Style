@@ -726,6 +726,14 @@ button:focus {
     z-index: 3;
 }
 
+.orisa-anniv {
+    position: absolute;
+    bottom: -398.5%;
+    right: 16%;
+    width: 20%;
+    z-index: 3;
+}
+
 .bastion-anniv {
     position: absolute;
     bottom: -398.5%;
