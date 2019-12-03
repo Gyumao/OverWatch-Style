@@ -734,6 +734,14 @@ button:focus {
     z-index: 3;
 }
 
+.symmetra-anniv {
+    position: absolute;
+    bottom: -398.5%;
+    left: 17%;
+    width: 22%;
+    z-index: 3;
+}
+
 .link-anniv {
     color: #f2c609;
     text-shadow: 2px 2px 2px black;
