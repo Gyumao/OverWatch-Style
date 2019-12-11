@@ -307,6 +307,14 @@ button:focus {
     z-index: 2;
 }
 
+.arrow6 {
+    width: 3%;
+    position: absolute;
+    bottom: -499%;
+    right: 50%;
+    z-index: 2;
+}
+
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
@@ -767,6 +775,17 @@ button:focus {
 .link-anniv a:hover {
     color: #f2c609;
     text-shadow: 2px 2px 2px black;
+}
+
+/*-------------------------------NOEL-----------------------------*/
+
+.bg-noel {
+    position: relative;
+    top: auto;
+    right: 0;
+    z-index: -99;
+    width: 100%;
+    height: 99vh;
 }
 
 /*------------------------------------Jeux-------------------*/
