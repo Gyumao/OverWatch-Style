@@ -788,6 +788,13 @@ button:focus {
     height: 99vh;
 }
 
+.title-noel {
+    position: absolute;
+    top: 505%;
+    left: 40%;
+    width: 20%;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
