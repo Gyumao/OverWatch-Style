@@ -795,6 +795,14 @@ button:focus {
     width: 20%;
 }
 
+.mccree-noel {
+    position: absolute;
+    bottom: -490%;
+    left: 9%;
+    width: 9.5%;
+    z-index: 3;
+}
+
 .sigma-noel {
     position: absolute;
     top: 538.5%;
