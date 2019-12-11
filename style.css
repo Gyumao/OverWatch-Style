@@ -791,15 +791,23 @@ button:focus {
 .title-noel {
     position: absolute;
     top: 505%;
-    left: 40%;
+    left: 38%;
     width: 20%;
+}
+
+.sigma-noel {
+    position: absolute;
+    top: 538.5%;
+    right: 33%;
+    width: 7%;
+    z-index: -1;
 }
 
 .sombra-noel {
     position: absolute;
-    bottom: -485%;
-    right: 2%;
-    width: 9%;
+    bottom: -483%;
+    right: 25%;
+    width: 7%;
     z-index: 3;
 }
 
