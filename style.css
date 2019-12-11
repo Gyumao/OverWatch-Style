@@ -795,6 +795,14 @@ button:focus {
     width: 20%;
 }
 
+.sombra-noel {
+    position: absolute;
+    bottom: -485%;
+    right: 2%;
+    width: 9%;
+    z-index: 3;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
