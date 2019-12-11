@@ -143,7 +143,6 @@ button:focus {
     text-align: center;
     color: #f2c609;
     text-shadow: 3px 3px 3px black;
-    /*font-family: 'comic sans ms', serif;*/
     position: absolute;
     z-index: 2;
     margin: 3vw 0 0 3vw;
@@ -689,7 +688,7 @@ button:focus {
 .chacal-anniv {
     position: absolute;
     top: 399%;
-    left: 13%;
+    left: 13.5%;
     width: 13%;
     z-index: -1;
 }
@@ -753,14 +752,15 @@ button:focus {
 .link-anniv {
     color: #f2c609;
     text-shadow: 2px 2px 2px black;
+    font-weight: bold;
     position: absolute;
-    bottom: -388%;
-    left: 35%;
-    font-size: 3.5vw;
+    bottom: -387%;
+    left: 39%;
+    font-size: 2.5vw;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(0, 0, 0), 0 0 .5em rgb(0, 0, 0), 0 0 0.5em rgb(0, 0, 0);
     letter-spacing: .3vw;
-    font-family: "kroverwatch";
+    /*font-family: "kroverwatch";*/
     z-index: 2;
 }
 
