@@ -805,17 +805,17 @@ button:focus {
 
 .sigma-noel {
     position: absolute;
-    top: 238.5%;
+    top: 239.2%;
     right: 33%;
     width: 7%;
     z-index: -1;
 }
 
-.sombra-noel {
+.doomfist-noel {
     position: absolute;
-    bottom: -183%;
-    right: 25%;
-    width: 7%;
+    bottom: -195%;
+    right: 10%;
+    width: 13%;
     z-index: 3;
 }
 
