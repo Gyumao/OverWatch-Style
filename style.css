@@ -829,11 +829,11 @@ button:focus {
     z-index: 3;
 }
 
-.chacal-noel {
+.faucheur-noel {
     position: absolute;
-    top: 224%;
+    top: 226%;
     left: 48%;
-    width: 7%;
+    width: 6%;
     z-index: 3;
 }
 
@@ -850,6 +850,14 @@ button:focus {
     bottom: -178%;
     left: 27%;
     width: 6%;
+    z-index: 3;
+}
+
+.chacal-noel {
+    position: absolute;
+    bottom: -191%;
+    right: 8%;
+    width: 10%;
     z-index: 3;
 }
 
