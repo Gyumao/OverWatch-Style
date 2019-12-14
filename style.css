@@ -795,6 +795,16 @@ button:focus {
     width: 20%;
 }
 
+.video-noel {
+    position: absolute;
+    top: 205%;
+    right: 3%;
+    width: 22vw;
+    border: 3px outset rgb(212, 212, 212);
+    border-radius: 0%;
+    opacity: .8;
+}
+
 .mccree-noel {
     position: absolute;
     bottom: -190%;
