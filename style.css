@@ -813,6 +813,14 @@ button:focus {
     z-index: 3;
 }
 
+.ana-noel {
+    position: absolute;
+    bottom: -198%;
+    left: 35%;
+    width: 12%;
+    z-index: 3;
+}
+
 .chacal-noel {
     position: absolute;
     top: 224%;
