@@ -839,9 +839,9 @@ button:focus {
 
 .doomfist-noel {
     position: absolute;
-    bottom: -195%;
-    right: 10%;
-    width: 13%;
+    bottom: -178%;
+    left: 27%;
+    width: 6%;
     z-index: 3;
 }
 
