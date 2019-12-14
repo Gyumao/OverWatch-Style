@@ -821,11 +821,11 @@ button:focus {
     z-index: 3;
 }
 
-.hanzo-noel {
+.soldat-noel {
     position: absolute;
-    bottom: -199%;
-    right: 28%;
-    width: 16%;
+    bottom: -198%;
+    right: 33%;
+    width: 14%;
     z-index: 3;
 }
 
