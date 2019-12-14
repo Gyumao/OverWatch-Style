@@ -821,6 +821,14 @@ button:focus {
     z-index: 3;
 }
 
+.hanzo-noel {
+    position: absolute;
+    bottom: -199%;
+    right: 28%;
+    width: 16%;
+    z-index: 3;
+}
+
 .chacal-noel {
     position: absolute;
     top: 224%;
