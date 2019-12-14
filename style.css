@@ -791,7 +791,7 @@ button:focus {
 .title-noel {
     position: absolute;
     top: 205%;
-    left: 38%;
+    left: 5%;
     width: 20%;
 }
 
@@ -810,6 +810,14 @@ button:focus {
     bottom: -190%;
     left: 9%;
     width: 9.5%;
+    z-index: 3;
+}
+
+.chacal-noel {
+    position: absolute;
+    top: 224%;
+    left: 48%;
+    width: 7%;
     z-index: 3;
 }
 
