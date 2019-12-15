@@ -826,6 +826,16 @@ button:focus {
     text-shadow: 2px 2px 2px black;
 }
 
+.link-noel {
+    color: #ff0000;
+    text-shadow: 2px 2px 2px black;
+}
+
+.link-noel a:hover {
+    color: #ff0000;
+    text-shadow: 2px 2px 2px black;
+}
+
 .mccree-noel {
     position: absolute;
     bottom: -190%;
