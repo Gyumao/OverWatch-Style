@@ -815,6 +815,17 @@ button:focus {
     text-shadow: 3px 3px 3px black;
 }
 
+.p-noel {
+    font-size: 2vw;
+    position: absolute;
+    left: 28%;
+    width: 75rem;
+    top: 210%;
+    text-align: center;
+    color: #fffafa;
+    text-shadow: 2px 2px 2px black;
+}
+
 .mccree-noel {
     position: absolute;
     bottom: -190%;
