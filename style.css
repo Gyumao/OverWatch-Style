@@ -805,6 +805,16 @@ button:focus {
     opacity: .9;
 }
 
+.h2-noel {
+    position: absolute;
+    top: 203%;
+    left: 35%;
+    font-size: 3.5vw;
+    text-align: center;
+    color: #fffafa;
+    text-shadow: 3px 3px 3px black;
+}
+
 .mccree-noel {
     position: absolute;
     bottom: -190%;
