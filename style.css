@@ -797,12 +797,12 @@ button:focus {
 
 .video-noel {
     position: absolute;
-    top: 205%;
-    right: 3%;
+    top: 206%;
+    right: 2%;
     width: 22vw;
     border: 3px outset rgb(212, 212, 212);
-    border-radius: 0%;
-    opacity: .8;
+    border-radius: 10%;
+    opacity: .9;
 }
 
 .mccree-noel {
@@ -855,8 +855,8 @@ button:focus {
 
 .chacal-noel {
     position: absolute;
-    bottom: -191%;
-    right: 8%;
+    bottom: -190%;
+    right: 9%;
     width: 10%;
     z-index: 3;
 }
