@@ -790,14 +790,14 @@ button:focus {
 
 .title-noel {
     position: absolute;
-    top: 205%;
+    top: 203%;
     left: 5%;
     width: 20%;
 }
 
 .video-noel {
     position: absolute;
-    top: 206%;
+    top: 203%;
     right: 2%;
     width: 22vw;
     border: 3px outset rgb(212, 212, 212);
