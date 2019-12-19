@@ -320,6 +320,14 @@ button:focus {
     z-index: 2;
 }
 
+.arrow7 {
+    width: 3%;
+    position: absolute;
+    bottom: -599%;
+    right: 50%;
+    z-index: 2;
+}
+
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
