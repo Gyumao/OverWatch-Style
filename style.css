@@ -907,6 +907,17 @@ button:focus {
     z-index: 3;
 }
 
+/*------------------------------nouvel an lunaire----------------------*/
+
+.bg-nouvelAn {
+    position: relative;
+    top: auto;
+    right: 0;
+    z-index: -99;
+    width: 100%;
+    height: 99vh;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
