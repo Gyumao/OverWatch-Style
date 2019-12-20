@@ -933,6 +933,14 @@ button:focus {
     width: 17%;
 }
 
+.zarya-nouvelAn {
+    position: absolute;
+    bottom: -598.2%;
+    right: 0;
+    width: 16%;
+    z-index: 3;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
