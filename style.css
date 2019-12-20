@@ -926,6 +926,13 @@ button:focus {
     height: 99vh;
 }
 
+.title-nouvelAn {
+    position: absolute;
+    top: 603%;
+    left: 45%;
+    width: 17%;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
