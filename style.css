@@ -941,6 +941,14 @@ button:focus {
     z-index: 3;
 }
 
+.phara-nouvelAn {
+    position: absolute;
+    bottom: -576%;
+    left: 2%;
+    width: 7%;
+    z-index: 3;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
