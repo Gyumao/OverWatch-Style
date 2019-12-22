@@ -949,6 +949,14 @@ button:focus {
     z-index: 3;
 }
 
+.tracer-nouvelAn {
+    position: absolute;
+    bottom: -570%;
+    left: 15%;
+    width: 15%;
+    z-index: 3;
+}
+
 .reinhardt-nouvelAn {
     position: absolute;
     bottom: -572%;
