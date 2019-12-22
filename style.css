@@ -931,6 +931,7 @@ button:focus {
     bottom: -575%;
     left: 33%;
     width: 17%;
+    z-index: 3;
 }
 
 .zarya-nouvelAn {
@@ -949,12 +950,12 @@ button:focus {
     z-index: 3;
 }
 
-.tracer-nouvelAn {
+.faucheur-nouvelAn {
     position: absolute;
-    bottom: -570%;
-    left: 15%;
-    width: 15%;
-    z-index: 3;
+    bottom: -571.5%;
+    left: 45%;
+    width: 7%;
+    z-index: 2;
 }
 
 .reinhardt-nouvelAn {
