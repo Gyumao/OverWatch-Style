@@ -928,8 +928,8 @@ button:focus {
 
 .title-nouvelAn {
     position: absolute;
-    top: 603%;
-    left: 45%;
+    bottom: -575%;
+    left: 33%;
     width: 17%;
 }
 
