@@ -949,6 +949,14 @@ button:focus {
     z-index: 3;
 }
 
+.reinhardt-nouvelAn {
+    position: absolute;
+    bottom: -572%;
+    right: 14%;
+    width: 10%;
+    z-index: 2;
+}
+
 /*------------------------------------Jeux-------------------*/
 
 .main-img {
