@@ -958,6 +958,14 @@ button:focus {
     z-index: 2;
 }
 
+.chopeur-nouvelAn {
+    position: absolute;
+    bottom: -571%;
+    left: 25%;
+    width: 11%;
+    z-index: 2;
+}
+
 .reinhardt-nouvelAn {
     position: absolute;
     bottom: -572%;
