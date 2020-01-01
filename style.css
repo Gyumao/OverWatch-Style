@@ -968,9 +968,9 @@ button:focus {
 
 .chopeur-nouvelAn {
     position: absolute;
-    bottom: -571%;
-    left: 25%;
-    width: 11%;
+    bottom: -586%;
+    right: 30%;
+    width: 10%;
     z-index: 2;
 }
 
