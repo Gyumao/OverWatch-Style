@@ -928,8 +928,8 @@ button:focus {
 
 .title-nouvelAn {
     position: absolute;
-    top: 630%;
-    left: 28%;
+    top: 631%;
+    left: 27%;
     width: 17%;
     z-index: 3;
 }
@@ -960,9 +960,9 @@ button:focus {
 
 .torbjorn-nouvelAn {
     position: absolute;
-    bottom: -575%;
-    left: 12%;
-    width: 8%;
+    bottom: -586%;
+    left: 27%;
+    width: 6%;
     z-index: 2;
 }
 
