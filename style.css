@@ -938,16 +938,17 @@ button:focus {
     position: absolute;
     bottom: -598%;
     right: 0;
-    width: 16%;
+    width: 15%;
     z-index: 3;
 }
 
 .phara-nouvelAn {
     position: absolute;
-    bottom: -576%;
-    left: 2%;
-    width: 7%;
+    top: 613.8%;
+    left: 36%;
+    width: 4%;
     z-index: 3;
+    transform: rotate(7deg);
 }
 
 .faucheur-nouvelAn {
