@@ -813,7 +813,7 @@ button:focus {
     top: 203%;
     right: 2%;
     width: 22vw;
-    border: 3px outset rgb(212, 212, 212);
+    border: 3px solid rgba(175, 226, 255, .9);
     border-radius: 10%;
     opacity: .9;
 }
