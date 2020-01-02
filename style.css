@@ -928,15 +928,15 @@ button:focus {
 
 .title-nouvelAn {
     position: absolute;
-    bottom: -588%;
-    left: 46%;
+    top: 630%;
+    left: 28%;
     width: 17%;
     z-index: 3;
 }
 
 .zarya-nouvelAn {
     position: absolute;
-    bottom: -598.2%;
+    bottom: -598%;
     right: 0;
     width: 16%;
     z-index: 3;
@@ -952,9 +952,9 @@ button:focus {
 
 .faucheur-nouvelAn {
     position: absolute;
-    top: 614%;
-    left: 37%;
-    width: 5%;
+    bottom: -597%;
+    left: 0;
+    width: 14%;
     z-index: 2;
 }
 
