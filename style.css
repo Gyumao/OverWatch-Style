@@ -925,20 +925,22 @@ button:focus {
 
 .title-nouvelAn {
     position: absolute;
-    top: 636%;
-    left: 30%;
+    bottom: -588%;
+    left: 46%;
     width: 13%;
     z-index: 3;
 }
 
 .video-nouvelAn {
     position: absolute;
-    top: 603%;
-    left: 2%;
-    width: 22vw;
+    top: 635%;
+    right: 55%;
+    width: 19%;
     border: 3px solid rgba(175, 226, 255, .9);
     border-radius: 10%;
     opacity: .9;
+    transform: skew(-10deg);
+    transform: rotate(3deg);
 }
 
 .zarya-nouvelAn {
