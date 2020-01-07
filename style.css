@@ -931,6 +931,16 @@ button:focus {
     z-index: 3;
 }
 
+.video-nouvelAn {
+    position: absolute;
+    top: 603%;
+    left: 2%;
+    width: 22vw;
+    border: 3px solid rgba(175, 226, 255, .9);
+    border-radius: 10%;
+    opacity: .9;
+}
+
 .zarya-nouvelAn {
     position: absolute;
     bottom: -598%;
