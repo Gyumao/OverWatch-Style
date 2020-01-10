@@ -946,7 +946,7 @@ button:focus {
 .zarya-nouvelAn {
     position: absolute;
     bottom: -598%;
-    right: 0;
+    right: 2%;
     width: 15%;
     z-index: 3;
 }
@@ -963,7 +963,7 @@ button:focus {
 .faucheur-nouvelAn {
     position: absolute;
     bottom: -597%;
-    left: 0;
+    left: 2%;
     width: 14%;
     z-index: 2;
 }
