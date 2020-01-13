@@ -47,6 +47,25 @@ header nav ul li a:focus {
     padding: .5vw .5vw;
 }
 
+nav ul ul {
+    display: none;
+    position: absolute;
+    left: 14%;
+    top: 5%;
+    z-index: 99;
+}
+
+nav ul ul li {
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+    height: auto;
+}
+
 li {
     display: block;
     list-style: none;
@@ -936,10 +955,8 @@ button:focus {
     top: 635%;
     right: 55%;
     width: 19%;
-    border: 3px solid rgba(175, 226, 255, .9);
-    border-radius: 10%;
-    opacity: .9;
-    transform: skew(-10deg);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15%;
     transform: rotate(3deg);
 }
 
@@ -970,9 +987,9 @@ button:focus {
 
 .zenyatta-nouvelAn {
     position: absolute;
-    bottom: -586%;
+    bottom: -593%;
     left: 27%;
-    width: 5%;
+    width: 8%;
     z-index: 2;
 }
 
