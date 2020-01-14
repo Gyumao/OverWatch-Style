@@ -50,7 +50,7 @@ header nav ul li a:focus {
 nav ul ul {
     display: none;
     position: absolute;
-    left: 14%;
+    left: 13.5%;
     top: 5%;
     z-index: 99;
 }
