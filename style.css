@@ -941,7 +941,7 @@ button:focus {
 
 .title-nouvelAn {
     position: absolute;
-    bottom: -588%;
+    bottom: -488%;
     left: 46%;
     width: 13%;
     z-index: 3;
@@ -949,7 +949,7 @@ button:focus {
 
 .video-nouvelAn {
     position: absolute;
-    top: 635%;
+    top: 535%;
     right: 55%;
     width: 19%;
     border: 3px solid rgb(0, 0, 0);
@@ -959,7 +959,7 @@ button:focus {
 
 .zarya-nouvelAn {
     position: absolute;
-    bottom: -598%;
+    bottom: -498%;
     right: 2%;
     width: 15%;
     z-index: 3;
@@ -967,7 +967,7 @@ button:focus {
 
 .phara-nouvelAn {
     position: absolute;
-    top: 613.8%;
+    top: 513.8%;
     left: 36%;
     width: 4%;
     z-index: 3;
@@ -976,7 +976,7 @@ button:focus {
 
 .faucheur-nouvelAn {
     position: absolute;
-    bottom: -597%;
+    bottom: -497%;
     left: 2%;
     width: 14%;
     z-index: 2;
@@ -984,7 +984,7 @@ button:focus {
 
 .zenyatta-nouvelAn {
     position: absolute;
-    bottom: -593%;
+    bottom: -493%;
     left: 27%;
     width: 8%;
     z-index: 2;
@@ -992,7 +992,7 @@ button:focus {
 
 .torbjorn-nouvelAn {
     position: absolute;
-    bottom: -586%;
+    bottom: -486%;
     left: 40%;
     width: 6%;
     z-index: 2;
@@ -1000,7 +1000,7 @@ button:focus {
 
 .chopeur-nouvelAn {
     position: absolute;
-    bottom: -586%;
+    bottom: -486%;
     right: 30%;
     width: 10%;
     z-index: 2;
