@@ -385,8 +385,6 @@ button:focus {
 
 .gradient {
     background: rgb(48, 255, 144);
-    /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(48, 255, 144, 1) 0%, rgba(237, 45, 237, 1) 25%, rgba(201, 152, 38, 1) 50%, rgba(48, 255, 230, 1) 75%, rgba(48, 255, 144, 1) 100%);
     /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(48, 255, 144, 1)), color-stop(25%, rgba(237, 45, 237, 1)), color-stop(50%, rgba(201, 152, 38, 1)), color-stop(75%, rgba(48, 255, 230, 1)), color-stop(100%, rgba(48, 255, 144, 1)));
     /* Chrome,Safari4+ */
@@ -400,7 +398,6 @@ button:focus {
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30ff90', endColorstr='#30ff90', GradientType=1);
     /* IE6-9 */
-
 }
 
 /*-----------------------------------------OVERWATCH2-------------------------------------------*/
