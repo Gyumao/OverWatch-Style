@@ -577,7 +577,7 @@ button:focus {
 
 .video-sg {
     position: absolute;
-    bottom: -337%;
+    bottom: -237%;
     right: 10%;
     width: 30vw;
     border: 3px outset rgb(212, 212, 212);
@@ -587,63 +587,63 @@ button:focus {
 
 .title-sg {
     position: absolute;
-    top: 401%;
+    top: 301%;
     left: 1%;
     width: 20%;
 }
 
 .zenyatta-sg {
     position: absolute;
-    bottom: -358%;
+    bottom: -258%;
     right: 26%;
     width: 4%;
 }
 
 .chacal-sg {
     position: absolute;
-    bottom: -362%;
+    bottom: -262%;
     right: 37%;
     width: 5%;
 }
 
 .reinhardt-sg {
     position: absolute;
-    bottom: -367%;
+    bottom: -267%;
     left: 25%;
     width: 10%;
 }
 
 .bouldozer-sg {
     position: absolute;
-    bottom: -390%;
+    bottom: -290%;
     left: 2%;
     width: 22%;
 }
 
 .winston-sg {
     position: absolute;
-    bottom: -380%;
+    bottom: -280%;
     right: 10%;
     width: 13%;
 }
 
 .lucio-sg {
     position: absolute;
-    bottom: -398%;
+    bottom: -298%;
     left: 37%;
     width: 20%;
 }
 
 .ball-sg {
     position: absolute;
-    bottom: -397%;
+    bottom: -297%;
     right: 33%;
     width: 11%;
 }
 
 .h2-sg {
     position: absolute;
-    top: 403%;
+    top: 303%;
     left: 31%;
     font-size: 3.5vw;
     text-align: center;
@@ -656,7 +656,7 @@ button:focus {
 .p-sg {
     font-size: 1.7vw;
     position: absolute;
-    top: 412%;
+    top: 312%;
     left: 22%;
     width: 35%;
     text-align: center;
