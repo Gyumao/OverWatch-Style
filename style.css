@@ -310,7 +310,7 @@ button:focus {
 .arrow3 {
     width: 3%;
     position: absolute;
-    bottom: -199%;
+    bottom: -99%;
     right: 50%;
     z-index: 2;
 }
@@ -318,7 +318,7 @@ button:focus {
 .arrow4 {
     width: 3%;
     position: absolute;
-    bottom: -299%;
+    bottom: -199%;
     right: 50%;
     z-index: 2;
 }
@@ -326,7 +326,7 @@ button:focus {
 .arrow5 {
     width: 3%;
     position: absolute;
-    bottom: -399%;
+    bottom: -299%;
     right: 50%;
     z-index: 2;
 }
@@ -334,7 +334,7 @@ button:focus {
 .arrow6 {
     width: 3%;
     position: absolute;
-    bottom: -499%;
+    bottom: -399%;
     right: 50%;
     z-index: 2;
 }
@@ -342,7 +342,7 @@ button:focus {
 .arrow7 {
     width: 3%;
     position: absolute;
-    bottom: -599%;
+    bottom: -499%;
     right: 50%;
     z-index: 2;
 }
