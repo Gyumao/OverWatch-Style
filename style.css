@@ -690,7 +690,7 @@ button:focus {
 
 .video-anniv {
     position: absolute;
-    top: 518%;
+    top: 418%;
     left: 0;
     height: 70vh;
     object-fit: fill;
@@ -701,14 +701,14 @@ button:focus {
 
 .title-anniv {
     position: absolute;
-    top: 500%;
+    top: 400%;
     left: 40%;
     width: 16%;
 }
 
 .hanzo-anniv {
     position: absolute;
-    top: 499%;
+    top: 399%;
     right: 0;
     width: 17%;
     z-index: -1;
@@ -716,7 +716,7 @@ button:focus {
 
 .genji-anniv {
     position: absolute;
-    top: 499%;
+    top: 399%;
     left: 0%;
     width: 14%;
     z-index: -1;
@@ -724,7 +724,7 @@ button:focus {
 
 .chacal-anniv {
     position: absolute;
-    top: 499%;
+    top: 399%;
     left: 13.5%;
     width: 13%;
     z-index: -1;
@@ -732,7 +732,7 @@ button:focus {
 
 .doomfist-anniv {
     position: absolute;
-    top: 499%;
+    top: 399%;
     left: 26%;
     width: 15%;
     z-index: -1;
@@ -740,7 +740,7 @@ button:focus {
 
 .brigitte-anniv {
     position: absolute;
-    top: 499%;
+    top: 399%;
     right: 16%;
     width: 13%;
     z-index: -1;
@@ -748,7 +748,7 @@ button:focus {
 
 .zarya-anniv {
     position: absolute;
-    top: 498%;
+    top: 398%;
     right: 30%;
     width: 14%;
     z-index: -1;
@@ -756,7 +756,7 @@ button:focus {
 
 .winston-anniv {
     position: absolute;
-    bottom: -498.2%;
+    bottom: -398.2%;
     right: 0;
     width: 16%;
     z-index: 3;
@@ -764,7 +764,7 @@ button:focus {
 
 .orisa-anniv {
     position: absolute;
-    bottom: -498.2%;
+    bottom: -398.2%;
     right: 16%;
     width: 20%;
     z-index: 3;
@@ -772,7 +772,7 @@ button:focus {
 
 .bastion-anniv {
     position: absolute;
-    bottom: -498.2%;
+    bottom: -398.2%;
     left: 0;
     width: 17%;
     z-index: 3;
@@ -780,7 +780,7 @@ button:focus {
 
 .symmetra-anniv {
     position: absolute;
-    bottom: -498.2%;
+    bottom: -398.2%;
     left: 17%;
     width: 22%;
     z-index: 3;
@@ -791,7 +791,7 @@ button:focus {
     text-shadow: 2px 2px 2px black;
     font-weight: bold;
     position: absolute;
-    bottom: -487%;
+    bottom: -387%;
     left: 39%;
     font-size: 2.5vw;
     text-align: center;
