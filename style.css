@@ -484,7 +484,7 @@ button:focus {
 
 .title-halloween {
     position: absolute;
-    top: 305%;
+    top: 205%;
     right: 30%;
     width: 25%;
 }
@@ -492,7 +492,7 @@ button:focus {
 .h2-halloween {
     font-family: 'Creepster', cursive;
     position: absolute;
-    bottom: -225%;
+    bottom: -125%;
     left: 1.2vw;
     width: 35%;
     font-size: 2.5vw;
@@ -532,7 +532,7 @@ button:focus {
     font-size: 1.7vw;
     font-family: 'Creepster', cursive;
     position: absolute;
-    bottom: -252%;
+    bottom: -152%;
     left: 1.2vw;
     width: 35%;
     text-align: center;
@@ -543,14 +543,14 @@ button:focus {
 
 .faucheur-halloween {
     position: absolute;
-    bottom: -261%;
+    bottom: -161%;
     right: 12%;
     width: 22%;
 }
 
 .video-halloween {
     position: absolute;
-    bottom: -297%;
+    bottom: -197%;
     left: 0;
     width: 35vw;
     margin-left: 1vw;
@@ -560,7 +560,7 @@ button:focus {
 
 .soldier-halloween {
     position: absolute;
-    bottom: -301%;
+    bottom: -201%;
     right: 44%;
     width: 20%;
 
