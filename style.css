@@ -1,4 +1,4 @@
-/*--------------------------RESET-----------------------------*/
+/*--------------------------FONT-----------------------------*/
 @font-face {
     font-family: 'bignoodletoo';
     src: url('assets/fonts/bignoodletoo.ttf');
@@ -18,6 +18,8 @@
     font-family: 'koverwatch.ttf';
     src: url('assets/fonts/koverwatch.ttf');
 }
+
+/*--------------------------RESET-----------------------------*/
 
 * {
     box-sizing: border-box;
@@ -160,6 +162,8 @@ button:focus {
     right: 2%;
 
 }
+
+/*---------------------------------MAIN-ACCUEIL-------------------*/
 
 .title-h1 {
     font-size: 6vw;
