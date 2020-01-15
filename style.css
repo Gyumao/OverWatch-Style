@@ -756,7 +756,7 @@ button:focus {
 
 .winston-anniv {
     position: absolute;
-    bottom: -398.2%;
+    bottom: -398.3%;
     right: 0;
     width: 16%;
     z-index: 3;
@@ -764,7 +764,7 @@ button:focus {
 
 .orisa-anniv {
     position: absolute;
-    bottom: -398.2%;
+    bottom: -398.3%;
     right: 16%;
     width: 20%;
     z-index: 3;
@@ -772,7 +772,7 @@ button:focus {
 
 .bastion-anniv {
     position: absolute;
-    bottom: -398.2%;
+    bottom: -398.3%;
     left: 0;
     width: 17%;
     z-index: 3;
@@ -780,7 +780,7 @@ button:focus {
 
 .symmetra-anniv {
     position: absolute;
-    bottom: -398.2%;
+    bottom: -398.3%;
     left: 17%;
     width: 22%;
     z-index: 3;
