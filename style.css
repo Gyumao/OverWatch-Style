@@ -1058,6 +1058,15 @@ button:focus {
     margin: 1% 0;
 }
 
+.bg-personnages {
+    position: relative;
+    top: auto;
+    right: 0;
+    z-index: -99;
+    width: 100%;
+    height: 99vh;
+}
+
 /*---------------------------FOOTER----------------------------*/
 
 footer {
